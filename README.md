@@ -11,6 +11,8 @@
   - load everything first then user call it later (no new creation)
 - Composite
 
+[UML diagram of these designed pattern](https://github.com/thitgorn/SSD-midterm-preparation/tree/master/DesignPattern)
+
 ## Use case
 - what are the step that user do to use our system.
   - example
