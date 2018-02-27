@@ -25,7 +25,7 @@ example
 
 some of notation
 
-<img src='./images/UML-Connectors.gif' width="50%" height="auto"/>
+<img src='./images/UML-Connectors.gif' width="5R0%" height="auto"/>
 
 Inheritance
   - extends
@@ -53,7 +53,7 @@ Realization
 
 some of notation
 
-<b>See at Midterm Meterials.pdf page 72 onward.</b>
+[<b>See at SequenceDiagram.pdf</b>](https://github.com/thitgorn/SSD-midterm-preparation/blob/master/SequenceDiagram.pdf)
 
 ## Review OOP
 - Different types of classes in Java Objects and there default methods
