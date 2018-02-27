@@ -25,7 +25,7 @@ example
 
 some of notation
 
-<img src='./images/UML-Connectors.gif' width="5R0%" height="auto"/>
+<img src='./images/UML-Connectors.gif' width="50%" height="auto"/>
 
 Inheritance
   - extends
