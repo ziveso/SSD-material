@@ -12,10 +12,15 @@
 - Composite
 
 ## Use case
-- find noun
+- what are the step that user do to use our system.
+  - example
+    - Player start the game
+    - Player roll the dice
+    - If dice face more than 3 , player win
 
 ## Domain model
-- use noun from use case try to create the relation between them
+- find noun
+- use noun try to create the relation between them
 
 example
 <img src='./images/Domain-model.jpg' width="100%" height="auto"/>
