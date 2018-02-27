@@ -13,6 +13,31 @@
 
 [UML diagram of these designed pattern](https://github.com/thitgorn/SSD-midterm-preparation/tree/master/DesignPattern)
 
+
+## FURPS
+- "F"unctional
+  - Describe what the system can do
+  - eg, Users "can" register/login to the system
+- "U"sability
+  - Understandability, Learnability, Operability, Attractiveness
+  - eg, The text must be visible from 2 meters.
+  - eg, All error messages in the system describe how to fix it.
+- "R"eliability
+  - Frequency of failure, Recoverability, Predictability.
+  - eg, The system will fail less than 3 hours a week.
+  - eg, The system can boot up after 1 minutes after failure
+- "P"erformance
+  - Response times, Throughput, Accuracy
+  - eg, The system can handle up to 10k concurrent users
+  - eg, The new feed calculation is always done with in 31.5 seconds
+- "S"upportability
+  - Adaptability, Maintainability, Internationalization
+  - eg, The app supports Thai and English
+
+## GRASP
+?????
+
+
 ## Use case
 - what are the step that user do to use our system.
   - example
