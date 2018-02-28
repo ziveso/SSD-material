@@ -18,63 +18,60 @@
 
 ## FURPS
 
-- "F"unctional
-
+- "**F**"unctional
   - Describe what the system can do
   - eg, Users "can" register/login to the system
 
-- "U"sability
 
+- "**U**"sability
   - Understandability, Learnability, Operability, Attractiveness
   - eg, The text must be visible from 2 meters.
   - eg, All error messages in the system describe how to fix it.
 
-- "R"eliability
 
+- "**R**"eliability
   - Frequency of failure, Recoverability, Predictability.
   - eg, The system will fail less than 3 hours a week.
   - eg, The system can boot up after 1 minutes after failure
 
-- "P"erformance
 
+- "**P**"erformance
   - Response times, Throughput, Accuracy
   - eg, The system can handle up to 10k concurrent users
   - eg, The new feed calculation is always done with in 31.5 seconds
 
-- "S"upportability
 
+- "**S**"upportability
   - Adaptability, Maintainability, Internationalization
   - eg, The app supports Thai and English
 
 ## GRASP
 
 - **Controller**
-
-  - Problem: What first object beyond the UI layer receives and coordinates a system operation?
-  - Solution: Assign the responsibility to:
-
+  - **Problem**: What first object beyond the UI layer receives and coordinates a system operation?
+  - **Solution**: Assign the responsibility to:
     - The object that represents the overall system
     - The object that represents that particular use case
 
+
 - **Creator**
-
-  - Problem: Who creates an A?
-  - Solution: Assign class B the responsibility to create an instance of class A if one of these is true (the more the better)
-
+  - **Problem**: Who creates an A?
+  - **Solution**: Assign class B the responsibility to create an instance of class A if one of these is true (the more the better)
     - B contains A
     - B records A
     - B closely uses A
     - B has the initializing data for A
 
-- **Information Experts**
 
-  - Problem: What is a basic principle by which to assign responsibilities
-  - Solution: Assign a responsibility to the class that has the information needed to fulfill it
+- **Information Experts**
+  - **Problem**: What is a basic principle by which to assign responsibilities
+  - **Solution**: Assign a responsibility to the class that has the information needed to fulfill it
+
 
 - **High Cohesions**
+  - **Problem**: How to keep objects focused, understandable, and manageable?
+  - **Solution**: Assign the responsibility so that cohesion remains high. Use this to evaluate alternatives.
 
-  - Problem: How to keep objects focused, understandable, and manageable?
-  - Solution: Assign the responsibility so that cohesion remains high. Use this to evaluate alternatives.
 
 - Low Coupling
 - Polymorphism
