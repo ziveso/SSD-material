@@ -35,7 +35,30 @@
   - eg, The app supports Thai and English
 
 ## GRASP
-?????
+- GRASP consists of
+  - <b>Controller</b>
+    - Problem: What first object beyond the UI layer receives and coordinates a system operation?
+    - Solution: Assign the responsibility to:
+      - The object that represents the overall system
+      - The object that represents that particular use case
+  - <b>Creator</b>
+    - Problem: Who creates an A?
+    - Solution: Assign class B the responsibility to create an instance of class A if one of these is true (the more the better)
+      - B contains A
+      - B records A
+      - B closely uses A
+      - B has the initializing data for A
+  - <b>Information Experts</b>
+    - Problem: What is a basic principle by which to assign responsibilities
+    - Solution: Assign a responsibility to the class that has the information needed to fulfill it
+  - <b>High Cohesions</b>
+    - Problem: How to keep objects focused, understandable, and manageable?
+    - Solution: Assign the responsibility so that cohesion remains high. Use this to evaluate alternatives.
+  - Low Coupling
+  - Polymorphism
+  - Protected Variations
+  - Pure Fabrication
+  - Indirection
 
 
 ## Use case
