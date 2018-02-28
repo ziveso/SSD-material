@@ -49,7 +49,7 @@
 
 ## Agile Model
 
-- Software is developed in incremental, rapid cycles.
+- Software is developed in iterative, incremental, evolutionary and rapid cycles.
 
 ### STEP
 1. Sprint planning
