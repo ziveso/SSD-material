@@ -8,11 +8,11 @@
 
 - Observer
 - Singleton
+- Composite
+- Strategy
 - Flyweight
-
   - load everything first then user call it later (no new creation)
 
-- Composite
 
 [UML diagram of these designed pattern](https://github.com/thitgorn/SSD-midterm-preparation/tree/master/DesignPattern)
 

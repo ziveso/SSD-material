@@ -13,3 +13,7 @@
 # Composite
 
 <img src="../images/composite.png" width="100%"/>
+
+# Strategy
+
+<img src="../images/strategy.gif" width="100%"/>
