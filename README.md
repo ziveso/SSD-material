@@ -153,9 +153,7 @@ some of notation
 
 - Common classes in Java such as List, Set, Map
 
-  - List
-
-    <int> i = new ArrayList&lt;&gt;();</int>
+  - List<int> i = new ArrayList&lt;&gt;();</int>
 
   - Set setA = new HashSet();
   - Map
