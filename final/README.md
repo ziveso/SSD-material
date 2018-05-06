@@ -14,7 +14,8 @@
 # Iterator Design Parrern
 
 - ไม่มีเหรี้ยไร ก็ JIM ไง
-    - new Iterator<DATATYPE>() {
+    ``` 
+    new Iterator<DATATYPE>() {
 
         var pointer = 0
 
@@ -27,7 +28,9 @@
 
         }
 
-    }
+    } 
+    ```
+
     - ใช้แทน loop ซะส่วนมาก
 
 - UML TODO ##
@@ -35,15 +38,17 @@
 # Comparator & Sorting (ไม่ออก)
 
 - การเขียน comparator JIM Again
-    - new Comparator<DATATYPE>() {
+    ```
+    new Comparator<DATATYPE>() {
 
         compareTo(o1 , o2) {
 
             return o2-o1
 
         }
-        
+
     }
+    ```
 
 - UML TODO ##
 
@@ -59,13 +64,35 @@
 
 # Builder Design Pattern (ไม่ออก)
 
+- ใช้แก้ปัญหา contructor ใส่ params ยาวๆ เยอะๆ
+
+- UML TODO ##
+
 # State Machine Design Pattern
+
+- JIMMY AGAIN
+
+- UML TODO ##
 
 # Object Pool Design Pattern
 
+- ใช้แก้ปัญหา create and remove object บ่อยๆ การทำ 2 อย่างนี้มันเปลื่อง memory มากๆ
+- ทำให้การที่ create object เยอะๆไว้ที่นึงก่อนแล้วเรียกมาใช้ เรื่อยๆ จะดีกว่า 
+
+- UML TODO ##
+
 # Decorator Design Pattern
 
+- ใช้ง่าย โย บอก
+- ทำลายน้ำ ใช้ทำไรก็ไม่รู็เหมือนกัน
+
+- UML TODO ##
+
 # Memento Design Pattern
+
+- ใช้เพื่อ save ค่าที่เป็น private ใน class นั้น แล้ว load มาใช้
+
+- UML TODO ##
 
 # Grasp
 
