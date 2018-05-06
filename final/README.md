@@ -15,13 +15,18 @@
 
 - ไม่มีเหรี้ยไร ก็ JIM ไง
     - new Iterator<DATATYPE>() {
+
         var pointer = 0
+
         hasNext {
             
         }
         next {
+
             point ++
+
         }
+
     }
     - ใช้แทน loop ซะส่วนมาก
 
@@ -31,9 +36,13 @@
 
 - การเขียน comparator JIM Again
     - new Comparator<DATATYPE>() {
+
         compareTo(o1 , o2) {
+
             return o2-o1
+
         }
+        
     }
 
 - UML TODO ##
