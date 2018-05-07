@@ -96,7 +96,12 @@
 
 # Grasp
 
+อ่านเวปนี้ โคตรละเอียด
+[http://www.cs.mun.ca/~harold/Courses/Old/CS3716.W12/Diary/Rod/grasp2/grasp2.html](http://www.cs.mun.ca/~harold/Courses/Old/CS3716.W12/Diary/Rod/grasp2/grasp2.html)
+
 ## Low Coupling
+
+[https://tapeza555.wordpress.com/2013/04/04/low-coupling-high-cohesion/](https://tapeza555.wordpress.com/2013/04/04/low-coupling-high-cohesion/)
 
 ## Polymorpism
 
@@ -110,6 +115,9 @@
 
 # Dependency Inversion
 
+เรามี class A ใช้ class B แล้ว class B ใช้ class C
+
+ปัญหา ถ้า B เปลี่ยนแล้ว A ต้องการผลลัพธ์เหมือนเดิม ก็เลยสร้าง Class ตรงกลางมาเป็น interface แล้ว implements เอา
 
 
 
