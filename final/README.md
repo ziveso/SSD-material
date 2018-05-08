@@ -37,7 +37,7 @@
 
 # Comparator & Sorting (ไม่ออก)
 
-- การเขียน comparator JIM Again
+- การเขียน Comparator JIM Again
     ```
     new Comparator<DATATYPE>() {
 
