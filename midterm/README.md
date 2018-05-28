@@ -2,7 +2,7 @@
 
 ## Software Process
 
-[See Software Process folder](https://github.com/thitgorn/SSD-midterm-preparation/tree/master/SoftwareProcess)
+[See Software Process folder](https://github.com/thitgorn/SSD-material/tree/master/midterm/SoftwareProcess)
 
 ## Designed Pattern
 
@@ -14,7 +14,7 @@
   - load everything first then user call it later (no new creation)
 
 
-[UML diagram of these designed pattern](https://github.com/thitgorn/SSD-midterm-preparation/tree/master/DesignPattern)
+[UML diagram of these designed pattern](https://github.com/thitgorn/SSD-material/tree/master/DesignPattern)
 
 ## FURPS
 
@@ -138,7 +138,7 @@ Realization
 
 some of notation
 
-[**See at SequenceDiagram.pdf**](https://github.com/thitgorn/SSD-midterm-preparation/blob/master/SequenceDiagram.pdf)
+[**See at SequenceDiagram.pdf**](https://github.com/thitgorn/SSD-material/blob/master/SequenceDiagram.pdf)
 
 ## Review OOP
 
